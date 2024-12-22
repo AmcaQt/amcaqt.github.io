@@ -4,7 +4,7 @@ author: AmcaQt
 categories: [TryHackMe]
 tags: [web, enumeration, subdomain, subdomain takeover]
 render_with_liquid: false
-media_subpath: /images/thm_takeover/
+media_subpath: https://amcaqt.github.io/images/thm_takeover/
 image:
   path: room_card.png
 ---
