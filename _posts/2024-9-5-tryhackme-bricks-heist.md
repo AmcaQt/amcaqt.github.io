@@ -4,7 +4,7 @@ author: AmcaQt
 categories: [TryHackMe]
 tags: [web, enumeration, rce]
 render_with_liquid: false
-media_subpath: https://amcaqt.github.io/images/thm_bricks_heist/
+media_subpath: /images/thm_bricks_heist/
 image:
   path: room_card.png
 ---
