@@ -55,7 +55,7 @@ At `MACHINE_IP` we found a static page about `SPIP CMS`
 
 Using [Gobuster](https://www.kali.org/tools/gobuster/) we found one directory leads to another clue `/spip`, that shows installation of SPIP CMS
 
-then using [WhatWeb]() will give us another clue, that shows version of SPIP is outdated 
+then using [WhatWeb](https://www.kali.org/tools/whatweb/) will give us another clue, that shows version of SPIP is outdated 
 
 ![SPIP Version](1-version.PNG)
 _SPIP Version 4.2.0_
