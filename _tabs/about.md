@@ -30,10 +30,7 @@ Outside of coding and CTFs, I’m a curious learner and enjoy diving into new te
 
 ## Online CTF
 
-| CTF Events   | Badges |
-|--------------|--------|
-| DeadFace CTF | ![](https://raw.githubusercontent.com/AmcaQt/AmcaQt/refs/heads/main/img/Cyber%20Hacktics%20-%20DEADFACE%20CTF%202024%20Competitor%20-%202024-10-19.png) |
-| Spooky CTF   | ![](https://raw.githubusercontent.com/AmcaQt/AmcaQt/refs/heads/main/img/NJIT%20Information%20%26%20Cybersecurity%20Club%20-%20SpookyCTF%202024%20Cyber%20Challenger%20-%202024-11-02.png) |
+<iframe src="https://api.badgr.io/public/collections/c8ca0885f0bd4d7ea0e175263c54ca45?embed=true&amp;embedVersion=1&amp;embedWidth=330&amp;embedHeight=146" title="CTF Badges" style="width: 330px; height: 146px; border: 0px;"></iframe>
 
 ## TryHackMe 
 
