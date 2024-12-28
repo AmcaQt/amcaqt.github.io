@@ -113,7 +113,7 @@ Using [Linpeas] to gain more info, that's when we found that `AppArmor` is enabl
 
 Now lets use kernel library to spawn an unconfined bash shell
 
-``/ld-linux-x86–64.so.2 /bin/bash``
+`/ld-linux-x86–64.so.2 /bin/bash`
 
 When this command is executed, it uses the specified `dynamic linker/loader (ld-linux-x86–64.so.2)` to load the required shared libraries and start the `/bin/bash` shell. This method of invoking the linker/loader directly with a binary is a way to execute a binary by explicitly specifying the dynamic linker/loader to use for that particular binary.
 
