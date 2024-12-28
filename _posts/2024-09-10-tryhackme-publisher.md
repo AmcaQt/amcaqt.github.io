@@ -44,7 +44,6 @@ PORT   STATE SERVICE VERSION
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
 |_http-title: Publisher's Pulse: SPIP Insights & Tips
 |_http-server-header: Apache/2.4.41 (Ubuntu)
-
 ```
 
 Theres two open ports
