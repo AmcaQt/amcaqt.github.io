@@ -49,7 +49,7 @@ Theres two open ports
 
 At `MACHINE_IP` we found a static page about `SPIP CMS`
 
-![Web Page](page.png)
+![Web Page](page.PNG)
 
 #### What is the user flag?
 
