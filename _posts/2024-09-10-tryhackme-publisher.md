@@ -1,25 +1,21 @@
 ---
 title: 'TryHackMe: Publisher'
 author: AmcaQt
-categories:
-- TryHackMe
-tags:
-- web
-- enumeration
-- rce
-- Boot2Root
-- Directory Fuzzing
-- Privilege Escalation
+categories: [TryHackMe]
+tags: [web, enumeration, rce, Boot2Root, Directory Fuzzing, Privilege Escalation]
 render_with_liquid: false
-media_subpath: "/images/thm_publisher/"
+media_subpath: /images/thm_publisher/
 image:
   path: room_card.png
 date: 2024-09-10 00:00 +0000
 ---
+
 ![Tryhackme Room Link](room_image.PNG){: width="600" height="150" .shadow }
 _<https://tryhackme.com/r/room/publisher>_
 
 ## Description
+
+The **Publisher** CTF machine is a simulated environment hosting some services. Through a series of enumeration techniques, including directory fuzzing and version identification, a vulnerability is discovered, allowing for Remote Code Execution (RCE). Attempts to escalate privileges using a custom binary are hindered by restricted access to critical system files and directories, necessitating a deeper exploration into the system's security profile to ultimately exploit a loophole that enables the execution of an unconfined bash shell and achieve privilege escalation.
 
 ## Gain a Flag
 
@@ -27,7 +23,7 @@ _<https://tryhackme.com/r/room/publisher>_
 
 #### Nmap Scan
 
-```Nmap Scan
+```
 ┌──(root㉿amca)-[/home/amca]
 └─# nmap -A -sC -sV -T5 10.10.125.110
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-28 03:54 EST
@@ -62,7 +58,7 @@ Using [Gobuster](https://www.kali.org/tools/gobuster/) we found one directory le
 then using [WhatWeb]() will give us another clue, that shows version of SPIP is outdated 
 
 ![SPIP Version](1-version.PNG)
-_<SPIP Version 4.2.0>_
+_SPIP Version 4.2.0_
 
 Did some research online and found about the [exploit](https://github.com/nuts7/CVE-2023-27372) and PoC of the Vulnerabilities which is `Remote Code Execution`
 
