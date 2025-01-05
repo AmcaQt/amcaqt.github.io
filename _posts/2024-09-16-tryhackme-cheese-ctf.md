@@ -10,7 +10,7 @@ image:
 date: 2024-09-16 00:00 +0000
 ---
 
-![Tryhackme Room Link](room_image.PNG){: width="600" height="150" .shadow }
+![Tryhackme Room Link](room_image.png){: width="600" height="150" .shadow }
 _<https://tryhackme.com/r/room/cheesectfv10>_
 
 ## Description
