@@ -7,7 +7,7 @@ render_with_liquid: false
 media_subpath: /images/thm_lofi/
 image:
   path: room_card.png
-date: 2024-09-16 00:00 +0000
+date: 2025-01-02 00:00 +0000
 ---
 
 ![Tryhackme Room Link](room_image.PNG){: width="600" height="150" .shadow }
