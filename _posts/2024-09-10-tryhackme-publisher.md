@@ -2,7 +2,7 @@
 title: 'TryHackMe: Publisher'
 author: AmcaQt
 categories: [TryHackMe]
-tags: [web, enumeration, rce, Boot2Root, Directory Fuzzing, Privilege Escalation]
+tags: [Web, Enumeration, RCE, Boot2Root, Directory Fuzzing, Privilege Escalation]
 render_with_liquid: false
 media_subpath: /images/thm_publisher/
 image:
