@@ -2,7 +2,7 @@
 title: 'TryHackMe: TryHack3M: Bricks Heist'
 author: AmcaQt
 categories: [TryHackMe]
-tags: [web, enumeration, rce]
+tags: [Web, Enumeration, RCE]
 render_with_liquid: false
 media_subpath: /images/thm_bricks_heist/
 image:
