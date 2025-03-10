@@ -2,7 +2,7 @@
 title: 'TryHackMe: Lofi'
 author: AmcaQt
 categories: [TryHackMe]
-tags: [web, Enumeration, LFI]
+tags: [Web, Enumeration, LFI]
 render_with_liquid: false
 media_subpath: /images/thm_lofi/
 image:
