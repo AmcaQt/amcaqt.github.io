@@ -2,7 +2,7 @@
 title: 'TryHackMe: Cheese CTF'
 author: AmcaQt
 categories: [TryHackMe]
-tags: [web, enumeration, RCE, LFI, Privilege Escalation]
+tags: [Web, Enumeration, RCE, LFI, Privilege Escalation]
 render_with_liquid: false
 media_subpath: /images/thm_cheese_ctf/
 image:
