@@ -2,7 +2,7 @@
 title: 'TryHackMe: Takeover'
 author: AmcaQt
 categories: [TryHackMe]
-tags: [Web, Enumaration, Subdomain, Subdomain takeover]
+tags: [Web, Enumeration, Subdomain, Subdomain takeover]
 render_with_liquid: false
 media_subpath: /images/thm_takeover/
 image:
