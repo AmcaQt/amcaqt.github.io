@@ -147,7 +147,7 @@ This project wasn't about coding, this project taught me how to handle backend l
 
 ## Have Inquiries or Question ? 
 
-- 📧 [amcaqt06@gmail.com](amcaqt06@gmail.com)
+<!-- - 📧 [amcaqt06@gmail.com](amcaqt06@gmail.com) -->
 
 - 💻 [Github](https://github.com/AmcaQt)
 
