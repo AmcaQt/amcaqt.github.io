@@ -149,9 +149,9 @@ This project wasn't about coding, this project taught me how to handle backend l
 
 - 📧 [amcaqt06@gmail.com](amcaqt06@gmail.com)
 
-- 💻 [Github](github.com/AmcaQt)
+- 💻 [Github](https://github.com/AmcaQt)
 
-- 📷 [Instagram](instagram.com/amcaaqt)
+- 📷 [Instagram](https://www.instagram.com/amcaaqt/)
 
 ---
 
