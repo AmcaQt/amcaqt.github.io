@@ -120,7 +120,7 @@ Innovation.kktmpj.edu.my/
 
 I presented this to my Lecturer before the deployment: 
 
-![Presenting](AmcaQt-Presenting.png){: width="700" height="400" }
+![Presenting](AmcaQt-Presenting.png){: .left }
 _Presenting to Lecturer_
 
 This project wasn't about coding, this project taught me how to handle backend logic, user experience, email systems, and most importantly, how to build something practical that actually gets used. I had to think about:
