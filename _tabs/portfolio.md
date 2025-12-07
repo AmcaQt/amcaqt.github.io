@@ -72,23 +72,22 @@ I actively participate in online cybersecurity competitions and training platfor
 - **DeadFace CTF 2024** – Competitor  
 - **SpookyCTF 2024** – Cyber Challenger
 
-### TryHackMe Achievements
+<!-- ### TryHackMe Achievements
 | Room | Badge | Description |
 |------|-------|-------------|
 | Mr. Robot | ![](mrrobot.svg) | Completed the popular Mr. Robot room |
 | Hash Cracker | ![](hashcracker.svg) | Focused on hash identification and cracking |
 | Advent of Cyber 2024 | ![](aoc5.svg) | Participated in the annual holiday challenge |
-| 3 Million Legend | ![](3million.svg) | Completed special edition room celebrating 3M users |
+| 3 Million Legend | ![](3million.svg) | Completed special edition room celebrating 3M users | -->
 
 ---
 
 ## Education & Certifications
 
-*(Optional section – add if you have diplomas, coursework, or online certs to show)*  
-You can list:
-- Your diploma (IoT-related)
-- Any cybersecurity certificates (from THM, HTB, etc.)
-- Notable courses
+- Diploma in Electronic Engineering ( IoT )
+- CompTIA CySA+ 
+- Mini Machine Learning Hackathon
+- World Skills Malaysia Berhad ( Web Technology )
 
 ---
 
@@ -96,7 +95,7 @@ You can list:
 
 - **GitHub:** [github.com/Amca-qt](https://github.com/Amca-qt)  
 - **Instagram:** [@amcaaqt](https://instagram.com/amcaaqt)  
-- *(You can optionally link your résumé or LinkedIn here too)*
+- **LinkedIn:** [Fahim Amsyar](https://www.linkedin.com/in/fahim-amsyar/)
 
 ---
 
