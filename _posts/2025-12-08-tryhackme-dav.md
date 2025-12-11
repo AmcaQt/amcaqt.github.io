@@ -40,7 +40,7 @@ from the index page, we see default Apache Page with no further info, then let's
 gobuster dir -u MACHINE_IP -w /usr/share/dirb/wordlists/common.txt
 ```
 
-from this scanning we found 6 directory, one of it is **/webdav**, if we go to the directory it will ask for credentials. Luckily i do some researching on Webdav vulnerability [Webdav Vuln]().
+from this scanning we found 6 directory, one of it is **/webdav**, if we go to the directory it will ask for credentials. Luckily i do some researching on Webdav vulnerability [Webdav Vuln](https://xforeveryman.blogspot.com/2012/01/helper-webdav-xampp-173-default.html).
 
 Default cred for webdav referring on the documentation is :-
 
