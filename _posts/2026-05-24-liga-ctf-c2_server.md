@@ -1,7 +1,7 @@
 ---
 title: 'Liga CTF 2026: Find the C2 Server'
 author: AmcaQt
-categories: [OWASPKL: Liga CTF 2026]
+categories: [OWASPKL- Liga CTF 2026]
 tags: [reverse engineering, android, APK, jadx, C2, malware analysis]
 render_with_liquid: false
 media_subpath: /images/liga_ctf_c2_server/
