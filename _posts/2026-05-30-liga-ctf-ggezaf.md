@@ -8,7 +8,7 @@ media_subpath: /images/liga_ctf_ggez/
 date: 2026-05-30 00:00 +0000
 image:
     path: b2r.png
-date: 2025-11-24 20:32 +0800
+date: 2026-05-30 20:32 +0800
 ---
 
 ## Description
