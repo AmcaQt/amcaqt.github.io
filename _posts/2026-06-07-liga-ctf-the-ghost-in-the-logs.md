@@ -4,7 +4,7 @@ author: AmcaQt
 categories: [Liga CTF 2026]
 tags: [forensics, windows, evtx, powershell, base64, log analysis]
 render_with_liquid: false
-media_subpath: /images/liga_ctf_ghost_logs/
+media_subpath: /images/liga_ctf_ghost_in_the_logs/
 date: 2026-06-07 00:00 +0000
 image: 
     path: room_card.png
