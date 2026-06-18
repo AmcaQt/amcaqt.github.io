@@ -1,5 +1,5 @@
 ---
-title: "Liga CTF 2026: The Artisan's Ledger - Monument OSINT"
+title: 'Liga CTF 2026: The Artisan Ledger - Monument OSINT'
 author: AmcaQt
 categories: [Liga CTF 2026]
 tags: [OSINT, image search, monument, Roman numerals, geolocation]
