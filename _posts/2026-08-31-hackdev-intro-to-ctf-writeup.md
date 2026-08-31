@@ -5,6 +5,8 @@ date: 2026-08-31
 categories: [HackDev]
 tags: [Intro to CTF]
 media_subpath: /images/hackdev_intro_to_ctf
+image:
+    path: forensics_clue.jpg
 ---
 
 ## Intro
