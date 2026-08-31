@@ -239,6 +239,6 @@ Love this webinar and mini CTF Challenge, learned a lot from the webinar, just r
 
 ---
 
-![Happy Hacking](https://www.pinterest.com/pin/832110468682400675/)
+![Happy Hacking](https://i.pinimg.com/originals/ba/86/fc/ba86fcef7b6d8cb8d817430d3b1b1710.gif)
 
 ## Happy Hacking!
