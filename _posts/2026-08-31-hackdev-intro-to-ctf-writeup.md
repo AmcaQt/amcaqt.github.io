@@ -1,8 +1,10 @@
 ---
 title: HackDev - Intro to CTF Writeup
+auhor: AmcaQt
 date: 2026-08-31
-categories: [CTF, Writeup]
-tags: [hackdev, crypto, web, forensics, reverse-engineering, osint, beginner-ctf]
+categories: [HackDev]
+tags: [Intro to CTF]
+media_subpath: /images/hackdev_intro_to_ctf
 ---
 
 ## Intro
