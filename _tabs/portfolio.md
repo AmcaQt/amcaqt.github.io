@@ -67,24 +67,27 @@ _Built for Real-World Use_
 📂 [Source Code on GitHub](https://github.com/AmcaQt/Anjung-Rezeki-Form)
 
 ---
-
+ 
 ## CTF & Cybersecurity Experience
-
-I actively participate in online cybersecurity competitions and training platforms to sharpen my skills:
-
-### CTF Events
-- **DeadFace CTF 2024** – Competitor  
-- **SpookyCTF 2024** – Cyber Challenger
-
-<!-- ### TryHackMe Achievements
-| Room                 | Badge                | Description                                         |
-| -------------------- | -------------------- | --------------------------------------------------- |
-| Mr. Robot            | ![](mrrobot.svg)     | Completed the popular Mr. Robot room                |
-| Hash Cracker         | ![](hashcracker.svg) | Focused on hash identification and cracking         |
-| Advent of Cyber 2024 | ![](aoc5.svg)        | Participated in the annual holiday challenge        |
-| 3 Million Legend     | ![](3million.svg)    | Completed special edition room celebrating 3M users | --> |
-
+ 
+I run **T4R0T**, a CTF crew I've led since 2019, competing across web exploitation, OSINT/forensics, and reverse engineering.
+ 
+### Highlights
+- 🏆 **Top 10 — 3108 CTF: Bayang Satria 2025**
+- 🥈 **2nd - Mini CTF HackDev**
+- **Liga CTF 2026** (Weeks 2–5) — web exploitation (CDN bypass, LFI, cookie privilege escalation, IDOR), OSINT/forensics, reverse engineering
+- **OWASP KL CTF** — competitor
+- **3108 CTF: Kembara Tuah 2024** — competitor
+- **TCP1P 2024 International CTF** (Team S1c Mundus) — ranked 142/385
+- **No Hack No CTF 2024** — ranked 153/287
+- **World Wide CTF 2025** — competitor
+- **TryHackMe Advent of Cyber 2024** — 24/24 challenges completed
+- **DeadFace CTF 2024** — Competitor
+- **SpookyCTF 2024** — Cyber Challenger
+📝 Full writeups published on my [blog](https://amcaqt.github.io) in a first-person, walkthrough style covering Enumeration, Exploitation, Key Insights, and Lessons Learned.
+ 
 ---
+
 
 ## Education & Certifications
 
@@ -92,12 +95,14 @@ I actively participate in online cybersecurity competitions and training platfor
 - CompTIA CySA+ 
 - Mini Machine Learning Hackathon
 - World Skills Malaysia Berhad ( Web Technology )
+- iNice Mini Machine Learning Hackathon - Python Programming 
+- 2nd in Mini CTF HackDev
 
 ---
 
 ## Contact & Links
 
-- **GitHub:** [github.com/Amca-qt](https://github.com/Amca-qt)  
+- **GitHub:** [github.com/Amca-qt](https://github.com/AmcaQt)  
 - **Instagram:** [@amcaaqt](https://instagram.com/amcaaqt)  
 - **LinkedIn:** [Fahim Amsyar](https://www.linkedin.com/in/fahim-amsyar/)
 
