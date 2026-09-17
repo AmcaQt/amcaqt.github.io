@@ -25,29 +25,6 @@ I have a strong foundation in both frontend and backend web development and am a
 
 ## Projects
 
-### Python Calculator
-A console-based calculator developed in Python, featuring basic arithmetic operations. Designed to improve logic-building skills and CLI application structure.
-
-<!-- 🔗 [Live Documentation](https://amcaqt.github.io/posts/competition-registration-system)  
-📂 [Source Code on GitHub](https://github.com/AmcaQt/Competition-Registration-System) -->
-
-### Web Calculator (HTML/JS)
-An interactive and responsive calculator built using HTML, CSS, and JavaScript. This project served as a UI/UX improvement over the Python version.
-
-<!-- 🔗 [Live Documentation](https://amcaqt.github.io/posts/competition-registration-system)  
-📂 [Source Code on GitHub](https://github.com/AmcaQt/Competition-Registration-System) -->
-
-### SQLi_Lab (Work In Progress)
-A vulnerable web application designed for practicing SQL Injection techniques across 10 levels of increasing difficulty. Features include:
-- Authentication system (Login/Register)
-- Difficulty Selector
-- Payload Logging with IP tracking
-- Admin Panel challenge
-- Hint system
-
-<!-- 🔗 [Live Documentation](https://amcaqt.github.io/posts/competition-registration-system)  
-📂 [Source Code on GitHub](https://github.com/AmcaQt/Competition-Registration-System) -->
-
 ### Competition Registration System
 A full-stack web app built for **Pertandingan Inovasi KKTM Petaling Jaya 2025** to modernize participant registration.  
 Features include:
@@ -62,6 +39,33 @@ _Built for Real-World Use • Presented to Lecturer • Live-tested_
 🔗 [Live Documentation](https://amcaqt.github.io/posts/competition-registration-system)  
 📂 [Source Code on GitHub](https://github.com/AmcaQt/Competition-Registration-System)
 
+### NullBreach (In Progress)
+Final Year Project on Semester 4, 2nd Year. Build to protect server room and network
+Features include:
+- Auto Cut Off Power when Breached Detected
+- Logging In Server via MySQL
+- Send Alert to Admin via Telegram 
+- Monitoring using Web App and Mobile App
+
+Currently Still building
+
+_Built for Final Year Project (FYP)_
+
+<!-- 🔗 [Live Documentation](https://amcaqt.github.io/posts/competition-registration-system)  
+📂 [Source Code on GitHub](https://github.com/AmcaQt/Competition-Registration-System) -->
+
+### Anjung Rezeki Form
+A static form hosted on Github to make registration to use Anjung Rezeki easier.
+Features:
+- Send the registration result to Developer and Person Incharge for Anjung Rezeki
+- Slip Receipt UI for User
+- Cross Platform
+
+_Built for Real-World Use_
+
+🔗 [Live Project](https://amcaqt.github.io/Anjung-Rezeki-Form/)  
+📂 [Source Code on GitHub](https://github.com/AmcaQt/Anjung-Rezeki-Form)
+
 ---
 
 ## CTF & Cybersecurity Experience
@@ -73,12 +77,12 @@ I actively participate in online cybersecurity competitions and training platfor
 - **SpookyCTF 2024** – Cyber Challenger
 
 <!-- ### TryHackMe Achievements
-| Room | Badge | Description |
-|------|-------|-------------|
-| Mr. Robot | ![](mrrobot.svg) | Completed the popular Mr. Robot room |
-| Hash Cracker | ![](hashcracker.svg) | Focused on hash identification and cracking |
-| Advent of Cyber 2024 | ![](aoc5.svg) | Participated in the annual holiday challenge |
-| 3 Million Legend | ![](3million.svg) | Completed special edition room celebrating 3M users | -->
+| Room                 | Badge                | Description                                         |
+| -------------------- | -------------------- | --------------------------------------------------- |
+| Mr. Robot            | ![](mrrobot.svg)     | Completed the popular Mr. Robot room                |
+| Hash Cracker         | ![](hashcracker.svg) | Focused on hash identification and cracking         |
+| Advent of Cyber 2024 | ![](aoc5.svg)        | Participated in the annual holiday challenge        |
+| 3 Million Legend     | ![](3million.svg)    | Completed special edition room celebrating 3M users | --> |
 
 ---
 
