@@ -102,9 +102,10 @@ I run **T4R0T**, a CTF crew I've led since 2019, competing across web exploitati
 
 ## Contact & Links
 
-- **GitHub:** [github.com/Amca-qt](https://github.com/AmcaQt)  
+- **GitHub:** [github.com/AmcaQt](https://github.com/AmcaQt)  
 - **Instagram:** [@amcaaqt](https://instagram.com/amcaaqt)  
 - **LinkedIn:** [Fahim Amsyar](https://www.linkedin.com/in/fahim-amsyar/)
+- **Email:** amcaqt06@gmail.com
 
 ---
 
