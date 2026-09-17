@@ -217,7 +217,12 @@ The last challenge, hint said the order was reverse → forensic → crypto → 
 **Enumeration**
 Started the same way as the RE challenge: ran `strings` on the given file and found a clue referencing "burned_evidence."
 
+<<<<<<< HEAD
 ```RECOVERY NOTE: the real evidence is not here. download it at https://web2.ctf.hackdev.my/img/burned_evidence.jpg then read the hidden metadata (EXIF) of that image. the data about the picture, not the picture itself. what you find there is encoded.```
+=======
+```RECOVERY NOTE: the real evidence is not here. download it at https://web2.ctf.hackdev.my/img/burned_evidence.jpg then read the hidden metadata (EXIF) of that image. the data about the picture, not the picture itself. what you find there is encoded.
+```
+>>>>>>> 174eb27 (testing git push)
 
 **Exploitation**
 That clue pointed to an image file. Downloaded it, ran `exiftool` again, and found a Base64-encoded string in the metadata. Decoded it to get the final flag.
@@ -238,6 +243,12 @@ Love this webinar and mini CTF Challenge, learned a lot from the webinar, just r
 
 ---
 
+<<<<<<< HEAD
 ![Happy Hacking](https://i.pinimg.com/originals/ba/86/fc/ba86fcef7b6d8cb8d817430d3b1b1710.gif)
 
 ## Happy Hacking!
+=======
+![Happy Hacking](https://www.pinterest.com/pin/832110468682400675/)
+
+## Happy Hacking!
+>>>>>>> 174eb27 (testing git push)
