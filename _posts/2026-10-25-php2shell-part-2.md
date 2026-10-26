@@ -5,8 +5,7 @@ categories: [Security, Vulnerability Analysis]
 tags: [php, php2shell, cve-2026-109618, cve-2026-109619, rce, use-after-free, docker, wordpress, lab]
 media_subpath: /images/php2shell-images/
 image:
-    path: /images/php2shell-images/php2shell.jpg
-    alt: PHP2Shell Vuln
+    path: php2shell.jpg
 description: "Part 2 of the PHP2Shell series. We stand up our own vulnerable WordPress box on PHP 8.4.26 with Docker, then walk the exploit chain stage by stage: the trigger, the dangling pointer, the memory leak, and the RCE. Lab-only, built to understand."
 ---
 
