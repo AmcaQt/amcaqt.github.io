@@ -3,6 +3,9 @@ title: "PHP2Shell Part 1: Understanding the Vuln - 'Theory'"
 date: 2026-10-23 13:20:00 +0800
 categories: [Security, Vulnerability Analysis]
 tags: [php, php2shell, cve-2026-109618, cve-2026-109619, rce, use-after-free, opcache, web-security]
+image:
+    path: /images/php2hsell-images/php2shell.jpg
+    alt: PHP2Shell Vuln
 description: "Part 1 of a 2-part series breaking down PHP2Shell (CVE-2026-109618 & CVE-2026-109619), the pair of critical PHP core RCE bugs patched on 21 Oct 2026. This part is all theory. Part 2 we pop it in a lab."
 ---
 
