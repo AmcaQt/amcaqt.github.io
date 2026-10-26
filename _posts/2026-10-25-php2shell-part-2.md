@@ -1,5 +1,5 @@
 ---
-title: "PHP2Shell Part 2: Build the Lab, Walk the Chain"
+title: "PHP2Shell Part 2: Build the Lab  - Practical"
 date: 2026-10-25 01:00:00 +0800
 categories: [Security, Vulnerability Analysis]
 tags: [php, php2shell, cve-2026-109618, cve-2026-109619, rce, use-after-free, docker, wordpress, lab]
@@ -94,7 +94,7 @@ cp .env.example .env
 docker compose up -d --build
 ```
 
-![All three lab containers running](compose-ps.png)
+![All three lab containers running](docker-compose.png)
 _db, wordpress (php-fpm) and nginx all up. nginx is bound to 127.0.0.1:8080 so the box only ever answers us._
 
 Then finish the WordPress 5-minute install at `http://127.0.0.1:8080` (database host is `db`, not localhost).
@@ -114,14 +114,14 @@ docker compose exec wordpress php -v
 PHP 8.4.26 (fpm-fcgi) ...
 ```
 
-![php -v showing PHP 8.4.26 with Zend OPcache v8.4.26](php-v.png)
+![php -v showing PHP 8.4.26 with Zend OPcache v8.4.26](php-version.jpg)
 _PHP 8.4.26 (fpm). Note Zend OPcache v8.4.26 too, OPcache is part of the RCE half of the bug (CVE-2026-109619)._
 
 There it is. 8.4.26, one patch short of safe. That single line is the entire reason this box is vulnerable, the WordPress on top is almost irrelevant.
 
 And that is the headline of this whole CVE: the flaw is in the runtime, not the app. A dead-simple page that just prints `OK` on vulnerable PHP is exposed exactly the same as a full WordPress install. Your application code can be spotless and you are still on the hook.
 
-![The lab WordPress site, branded as TVETMARA Petaling Jaya](site.png)
+![The lab WordPress site, branded as TVETMARA Petaling Jaya](index-before.png)
 _The lab front-end, dressed up as a believable institutional site. Looks completely ordinary, and that is the point: nothing here is misconfigured, the exposure lives entirely in the PHP runtime underneath._
 
 The surface we care about is **`session.upload_progress`**. This is a stock PHP feature that tracks the progress of multipart file uploads, and crucially PHP can process upload-progress data *early*, before your application script even runs. That early-processing window is the entry point. Important distinction: the feature itself is not the bug. It is just the door the bug hides behind.
@@ -218,7 +218,7 @@ docker compose exec wordpress bash -c \
    && chown www-data:www-data /var/www/html/flag.txt'
 ```
 
-![www-data shell reading the user flag](www-data-flag.png)
+![www-data shell reading the user flag](www-data.jpg)
 _The access level the RCE yields: `uid=33(www-data)`, reading `flag.txt`. Since this post does not publish the working trigger, I am showing that privilege level directly rather than the exploit that reaches it. The point is the impact, not the payload._
 
 What this represents: a bug in the PHP *runtime* is enough to put an unauthenticated attacker at www-data. No WordPress login, no plugin, nothing wrong in the app itself. That is what makes a runtime-level flaw so brutal, and it is where post-exploitation begins.
@@ -250,7 +250,7 @@ From the www-data shell:
 find / -perm -4000 -type f 2>/dev/null
 ```
 
-![SUID binary enumeration showing findme](suid-enum.png)
+![SUID binary enumeration showing findme](lpe-1.png)
 _Among the usual SUID binaries sits `/usr/bin/findme`, which has no business being there._
 
 `findme` is a SUID-root copy of `find`, a GTFOBins classic. Because it runs as root, it reads files we are not supposed to see.
@@ -261,7 +261,7 @@ _Among the usual SUID binaries sits `/usr/bin/findme`, which has no business bei
 findme . -exec cat /etc/shadow \; -quit
 ```
 
-![findme dumping /etc/shadow as root](shadow-dump.png)
+![findme dumping /etc/shadow as root](root-password.png)
 _Because findme runs as root, `-exec cat /etc/shadow` hands us the file even though we are only www-data. Root's hash sits right at the top._
 
 `/etc/shadow` stores the password hashes and is normally root-only. The SUID binary just handed it over.
@@ -274,7 +274,7 @@ Save root's hash to a file and crack it (weak on purpose, falls in seconds):
 john --wordlist=/usr/share/wordlists/rockyou.txt root.hash
 ```
 
-![john cracking the root hash to password123](john-crack.png)
+![john cracking the root hash to password123](crack-password.png)
 _John chews through root's sha512crypt hash in about 4 seconds. Weak password, exactly as planted._
 
 Then become root and grab the root flag that www-data could not touch:
@@ -284,7 +284,7 @@ su root        # password123
 cat /root/flag.txt
 ```
 
-![su root then reading the root flag](root-flag.png)
+![su root then reading the root flag](root.jpg)
 _`su root` with the cracked password, `id` confirms `uid=0(root)`, and the root-only flag is ours._
 
 Full chain done: runtime RCE for the www-data foothold, then a SUID misconfig to reach root.
@@ -325,4 +325,6 @@ Stay patched, stay curious.
 
 `T4R0T`
 
-Happy Hacking.
+# Happy Hacking.
+
+![Happy Hacking](https://i.pinimg.com/originals/b0/98/89/b098896e07db3938de0ed02ea85d322f.gif)
