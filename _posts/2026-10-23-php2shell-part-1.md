@@ -15,7 +15,7 @@ So on 21 October 2026 the PHP team shipped an emergency out-of-band patch, and t
 
 This is a pair of critical bugs that live inside the PHP engine itself, not in some random plugin or theme. That distinction is the scary part. It means the vulnerable code runs underneath WordPress, Drupal, Joomla, Laravel, basically anything built on PHP, even a bare "Hello World" page. Wiz Research, who found it, put the blast radius at around 70% of all websites on the planet.
 
-This is a two part series. Part 1 (this one) is the theory: what the bugs are, how the disclosure went down, and why everyone is sweating. Part 2 is the fun part where we actually exploit it inside the TryHackMe lab that dropped for it. Let's get into it.
+This is a two part series. Part 1 (this one) is the theory: what the bugs are, how the disclosure went down, and why everyone is sweating. Part 2 is the fun part where we actually exploit it inside my own lab that dropped for it. Let's get into it.
 
 ## TL;DR
 
