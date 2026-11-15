@@ -9,8 +9,6 @@ image:
   path: loan_locked.png
 ---
 
-_<http://172.198.60.104:8081>_
-
 ## Description
 
 Need cash fast? You definitely should check our platform! Instant loan verification, documents archived and encrypted — what could possibly go wrong?
