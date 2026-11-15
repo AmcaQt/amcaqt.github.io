@@ -131,3 +131,4 @@ InIt{ps3ud0_r4nd0m_1s_n0t_r4nd0m_k3y_sp4c3_t00_sm4ll}
 Textbook lesson in why `random.seed()` and the standard `random` module have no business anywhere near key generation, use `secrets` or `os.urandom` directly instead. Fun one too, since the decoys actually punish you for not reading your own exploit's output carefully.
 
 # Happy Hacking
+![Gif](https://i.pinimg.com/originals/65/39/5e/65395e7d4d8ea15941c538b54e293f60.gif)
