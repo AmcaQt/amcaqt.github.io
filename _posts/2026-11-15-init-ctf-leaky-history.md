@@ -110,3 +110,5 @@ InIt{d4ngl1ng_c0mm1t_l34k}
 `git reset`, rebase, and friends only move refs around, they don't touch the underlying object store. The data behind a "deleted" commit sticks around until something actually runs garbage collection (`git gc`, or enough time/commits passing for it to trigger automatically) and prunes anything unreachable. Until that happens, `git fsck --full` will dig it straight back out. Moral of the story: if you accidentally commit a secret, rotating the secret is the only real fix, dropping the commit is not deleting it.
 
 # Happy Hacking
+
+![Gif](https://i.pinimg.com/originals/45/60/8b/45608bf7df3cd62ac2f280d1b4efa09f.gif)
