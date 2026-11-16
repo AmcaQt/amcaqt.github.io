@@ -57,7 +57,6 @@ printf 'VERIFICATION STATUS: APPROVED\nCASE-HI-2026-0917\nflag: InIt{}\n' \
 so the target was clear: read `/data/internal/verification_status.txt` from inside the app container. `/documents/preview` can read files, but only ones living under a *secret random* `upload_dir` we don't know yet.
 
 ![Verification required before the loan can be submitted](loan_locked.png)
-![Locked application form](loan_locked2.png)
 
 ### Finding the SSRF bypass
 
